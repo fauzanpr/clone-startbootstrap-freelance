@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Heyo</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <a href="#" class="main-header__logo font--header">FauzanPr</a>
+      <nav class="main-header__navbar">
+        <a href="#portfolio" class="font--header">Portfolio</a>
+        <a href="#about" class="font--header">About</a>
+        <a href="#contact-me" class="font--header">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <div class="hero">
+        <div class="hero__image"></div>
+        <p class="hero__font hero__font--header">Fauzan Pradana</p>
+        <p class="hero__font">Student - Web Development Enthusiast</p>
+      </div>
+      <section class="portfolio" id="portfolio">
+        <h2 class="portfolio__title font__section-title font__section-title--dark">Portfolio</h2>
+        <div class="portfolio__content">
+          <div class="portfolio__content__card portfolio__content__card--red">
+            <img src="img/OPT 17 VB.jpg" alt="" class="portfolio__content__image">
+          </div>
+          <div class="portfolio__content__card portfolio__content__card--blue">
+            <img src="img/ResearchTeamOriginal.png.jpg" alt="" class="portfolio__content__image">
+          </div>
+          <div class="portfolio__content__card portfolio__content__card--dark">
+            <img src="img/myfoto.jpeg" alt="" class="portfolio__content__image ">
+          </div>
+          <div class="portfolio__content__card portfolio__content__card--red">
+            <img src="img/OPT 17 VB.jpg" alt="" class="portfolio__content__image">
+          </div>
+          <div class="portfolio__content__card portfolio__content__card--blue">
+            <img src="img/ResearchTeamOriginal.png.jpg" alt="" class="portfolio__content__image">
+          </div>
+          <div class="portfolio__content__card portfolio__content__card--dark">
+            <img src="img/myfoto.jpeg" alt="" class="portfolio__content__image ">
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <h2 class="about__title font__section-title font__section-title--light">About</h2>
+        <div class="about__content">
+          <p class="font__section-content font__section-content--light">My Name is Fauzan and I am a Polinema Students that have interested on learning technology, such as Web Development and also Robotics.</p>
+          <p class="font__section-content font__section-content--light">I've learn about Robotics Programming, such as Arduino, Python, Basics Linux, and also Robotics Operating System (ROS). At this time, I spend my time for learning about Web Development especially on Frontend majority.</p>
+          <p class="font__section-content font__section-content--light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam saepe eveniet facilis similique beatae quibusdam. Suscipit eos aliquam velit porro.</p>
+        </div>
+        <div class="about__see-linkedin">
+          <a href="https://www.linkedin.com/in/fauzan-pradana-60b9191a7/" target="_blank">
+            <button class="about__see-linkedin__btn">See my Linkedin</button></a>  
+        </div>
+      </section>
+      <section class="contact-me" id="contact-me">
+        <h2 class="font__section-title font__section-title--dark">Contact Me</h2>
+        <form action="#">
+          <input type="text" placeholder="Full Name" class="contact-me__form-input" required>
+          <input type="email" placeholder="Email Address" class="contact-me__form-input" required>
+          <input type="text" placeholder="Phone Number" class="contact-me__form-input" required>
+          <textarea cols="30" rows="10" placeholder="Massage" class="contact-me__form-input" required></textarea>
+          <input type="submit" value="Send" class="contact-me__form-input--btn">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="footer__location footer__component">
+        <h3 class="font__footer-title">Location</h3>
+        <p class="font__footer-content">2215 John Daniel Drive</p>
+        <p class="font__footer-content">Clark, MO 65243</p>
+      </div>
+      <div class="footer__sosmed footer__component">
+        <h3 class="font__footer-title">Around the Web</h3>
+        <div class="footer__sosmed__logos">
+          <a href="#" class="logos__container">
+            <img src="img/facebook.png" alt="facebook" class="logos__logo"></a>
+          <a href="#" class="logos__container">
+            <img src="img/twitter.png" alt="facebook" class="logos__logo"></a>
+          <a href="#" class="logos__container">
+            <img src="img/facebook.png" alt="facebook" class="logos__logo"></a>
+          <a href="#" class="logos__container">
+            <img src="img/twitter.png" alt="facebook" class="logos__logo"></a>
+        </div>
+      </div>
+      <div class="footer__about footer__component">
+        <h3 class="font__footer-title">About Me</h3>
+        <p class="font__footer-content">Freelance is a free to use, MIT licensed Bootstrap theme created by me</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
